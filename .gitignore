@@ -361,3 +361,23 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Unity auto-generated VS/Mono files (optional)
+*.csproj
+*.sln
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+
+# Addressables / AssetBundle cache (optional)
+[Aa]ssets/[Aa]ssetStoreTools*
