@@ -5,14 +5,14 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
 
     [Header("Movement Info")]
-    public float jumpForce;
-    public float moveSpeed;
-    private bool runBegun;
+    [SerializeField] private float jumpForce;
+    [SerializeField] private float moveSpeed;
+    [SerializeField] private bool runBegun;
 
     [Header("Collsion Info")]
-    public float groundCheckDistance;
-    public LayerMask whatIsGround;
-    private bool isGrounded;
+    [SerializeField] private float groundCheckDistance;
+    [SerializeField] private LayerMask whatIsGround;
+    [SerializeField] private bool isGrounded;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
